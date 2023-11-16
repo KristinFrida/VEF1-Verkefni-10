@@ -17,7 +17,7 @@
 /* Almenn stíll fyrir App komponentinn */
 .App {
   text-align: center;
-  background-image: linear-gradient(brown, yellow);
+  background-image: linear-gradient(brown, yellow, brown);
   justify-content: center;
 }
 
