@@ -17,7 +17,7 @@
 /* Almenn stíll fyrir App komponentinn */
 .App {
   text-align: center;
-  background-color: var(--primary-background-color);
+  background-image: linear-gradient(brown, yellow);
   justify-content: center;
 }
 
@@ -37,7 +37,7 @@
 .ButtonWrapper input {
   background-color: #d6d6d6;
   border: none;
-  border-radius: 5px;
+  border-radius: 100px;
   padding: 6px 52px;
   font-size: 1.5rem;
   color: var(--text-color);
@@ -61,7 +61,7 @@
   position: relative;
   margin: 30px auto;
   border: none;
-  border-radius: 5px;
+  border-radius: 100px;
   cursor: var(--cursor-url) !important;
 }
 
@@ -113,6 +113,8 @@
 /* Stíll fyrir hvern search klasa */
 .search {
   margin-bottom: 5px;
-  text-align: left;
+  text-align: center;
   margin-left: 2px;
+  font-size: 20px;
+  font-weight: 700;
 }
