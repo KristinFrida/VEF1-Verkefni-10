@@ -80,10 +80,10 @@
 }
 .InfoWrapper{
   margin: 3rem;
-  margin-left: 32rem;
-  margin-right: 32rem;
+  margin-left: 34rem;
+  margin-right: 34rem;
   border: solid;
-  background-color: linear-gradient(brown, yellow);;
+  background-color: linear-gradient(yellow, brown);;
 }
 /* Stíll fyrir poke-name klasann */
 .poke-name {
