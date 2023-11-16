@@ -83,7 +83,7 @@
   margin-left: 32rem;
   margin-right: 32rem;
   border: solid;
-  background-color: antiquewhite;
+  background-color: linear-gradient(brown, yellow);;
 }
 /* Stíll fyrir poke-name klasann */
 .poke-name {
