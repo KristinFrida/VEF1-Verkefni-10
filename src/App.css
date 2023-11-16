@@ -1,0 +1,118 @@
+/* Skilgreini ákveðna stíla */
+:root {
+  --primary-background-color: #ffffff;
+  --card-background-color: #eff3ff;
+  --text-color: #282c34;
+  --button-background-color: #101010;
+  --button-hover-background-color: #565a62;
+  --button-text-color: #ffffff;
+  --cursor-url: url(https://cdn.custom-cursor.com/db/9957/32/minimal-pokeball-pointer.png), pointer;
+}
+
+/* Nota sérhöfða músarvísara fyrir öll element */
+* {
+  cursor: var(--cursor-url) !important;
+}
+
+/* Almenn stíll fyrir App komponentinn */
+.App {
+  text-align: center;
+  background-color: var(--primary-background-color);
+  justify-content: center;
+}
+
+/* Stíll fyrir card */
+.card {
+  min-width: fit-content;
+  background-color: var(--card-background-color);
+  padding: 6px 20px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 2rem;
+}
+
+/* Stíll fyrir input í ButtonWrapper */
+.ButtonWrapper input {
+  background-color: #d6d6d6;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 52px;
+  font-size: 1.5rem;
+  color: var(--text-color);
+  cursor: var(--cursor-url) !important;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+.ButtonWrapper input:hover {
+  background-color: var(--text-color);
+  color: #d6d6d6;
+}
+
+/* Stíll fyrir takkann í ButtonWrapper */
+.ButtonWrapper button {
+  display: block;
+  padding: 15px 60px;
+  font-size: 18px;
+  background-color: var(--button-background-color);
+  color: var(--button-text-color);
+  position: relative;
+  margin: 30px auto;
+  border: none;
+  border-radius: 5px;
+  cursor: var(--cursor-url) !important;
+}
+
+.ButtonWrapper button:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: var(--button-hover-background-color);
+  color: var(--button-text-color);
+}
+
+/* Stíll fyrir börn InfoWrapper */
+.InfoWrapper > * {
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Stíll fyrir poke-name klasann */
+.poke-name {
+  text-align: center;
+  font-weight: 800;
+}
+
+/* Stíll fyrir types klasann */
+.types {
+  text-align: center;
+  width: fit-content;
+  padding: 8px 12px;
+  border-radius: 30px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+/* Stíll fyrir height-weight-container klasann */
+.height-weight-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Stíll fyrir hæðina og þyngdina á klasanum */
+.height,
+.weight {
+  margin-top: -2px;
+  padding-left: 10px;
+}
+
+/* Stíll fyrir hvern search klasa */
+.search {
+  margin-bottom: 5px;
+  text-align: left;
+  margin-left: 2px;
+}
